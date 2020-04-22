@@ -12,7 +12,7 @@ before_deploy:
   - echo "Version = $version"
 deploy:
   provider: gae
-  keyfile: client-secret.json
+  keyfile: "client-secret.json"
   project: sympy-live-hrd
   skip_cleanup: true
   no_promote: true
